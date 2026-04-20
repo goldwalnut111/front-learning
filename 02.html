@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类选择器</title>
+    <style>
+/* 定义 */
+.red{
+    color:red;
+}
+
+.size{
+    font-size: 50px;
+}
+
+
+/* <!-- 定义id选择器 --> */
+#red{
+    color:red;
+}
+    </style>
+
+
+
+</head>
+<body>
+    <!-- 类选择器：查找标签，差异化设置标签的显示效果 -->
+    <!-- 1、定义类选择器.类名
+     2、使用类选择器.标签添加class=“类名” -->
+     <!-- 一个类选择器可以给多给用 -->
+     <p class="red">1111</p>
+     <p>2222</p>
+     <div class="red size">div标签</div>
+
+
+     <!-- id选择器 -->
+      <!-- 同一个id选择器在一个页面只能使用一个 -->
+       <div id="red">div标签2</div>
+</body>
+</html>
