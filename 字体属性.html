@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体属性</title>
+
+
+    <style>
+    p{
+        font-size: 30px;
+    }
+
+    h3{
+        font-weight: 400;
+    }
+
+    div{
+        font-weight: 700;
+    }
+
+    em{
+        font-style: normal;
+        /* 不倾斜效果 */
+    }
+
+    div{
+        font-style: italic;
+        /* 倾斜效果 */
+    }
+
+    p{
+        line-height: 3;
+        /* 字体大小的三倍 */
+    }
+
+
+    h6{
+        height: 100px;
+        background-color: aqua;
+        line-height: 100px;
+        /* 只能是单行文字垂直居中 */
+    }
+
+
+    /* 文字倾斜，文字加粗，字体大小，行高，楷体 */
+    div{
+        font: italic 700 30px/2 楷体;
+    }
+    /* font属性必须写字号和字体 */
+
+
+
+
+
+    /* 文本缩进 */
+    /* 缩进两个字的效果 */
+p{
+    text-indent: 2em;
+}
+
+
+/* 文本对齐 */
+h1{
+    text-align: center;
+}
+
+
+
+
+/* 图片居中 */
+div{
+    text-align: center;
+}
+
+
+
+/* 去掉下划线 */
+a{
+    text-decoration: none;
+}
+
+/* 添加下划线 */
+    div{
+        text-decoration: underline;
+    }
+
+
+    /* 添加删除线 */
+    p{
+        text-decoration: line-through;
+    }
+
+    /* 上划线 */
+    span{
+        text-decoration: overline;
+    }
+
+</style>
+</head>
+<body>
+    <p>测试字体大小</p>
+
+    <h3>h3标签</h3>
+    <div>div标签</div>
+
+
+    <em>em默认倾斜</em>
+    <div>div默认不倾斜</div>
+<br><br>
+    <!-- 行高 -->
+     <p>在人口老龄化与国家政策双重驱动下，我国智慧医养行业迎来黄金发展期。我国 60 岁及以上老年人口占比超 18%，预计 2035 年将达 4 亿，老年群体高血压、糖尿病等慢性病高发，健康管理需求呈爆发式增长。国家出台《“十四五” 健康老龄化规划》等政策，大力推进医养结合与智慧养老建设，为项目落地提供坚实政策支撑。</p>
+
+     <h6>文字</h6>
+
+
+     <div>测试font属性</div>
+
+
+     <p>在人口老龄化与国家政策双重驱动下，我国智慧医养行业迎来黄金发展期。我国 60 岁及以上老年人口占比超 18%，预计 2035 年将达 4 亿，老年群体高血压、糖尿病等慢性病高发，健康管理需求呈爆发式增长。国家出台《“十四五” 健康老龄化规划》等政策，大力推进医养结合与智慧养老建设，为项目落地提供坚实政策支撑。</p>
+
+
+     <h1>文本对齐方式</h1>
+
+
+    <!-- 图片居中 -->
+     <div>
+        <img src="./cat.jpg" alt="">
+     </div>
+
+
+     <!-- 文本修饰线text-decoration -->
+      <a href="#">a标签，去掉下划线</a>
+      <div>div标签，添加下划线</div>
+      <p>P标签，添加删除线</p>
+      <span>span标签</span>
+
+</body>
+</html>
