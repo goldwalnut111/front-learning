@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复合选择器</title>
+
+    <style>
+        /* div里面的span文字是红色 */
+        /* 后代选择器会选中所有后代，儿子孙子重孙子。。。。。 */
+        div span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 更准确更高效的选择目标元素 -->
+
+    <!-- 后代选择器 ：选中某元素的后代元素-->
+     <span>span标签</span>
+     <div>
+        <span>这是dic的儿子span</span>
+        <p>
+            <span>孙子span</span>
+        </p>
+     </div>
+    
+</body>
+</html>

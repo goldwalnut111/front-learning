@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+
+    <style>
+        /* 任何标签都可以设置鼠标悬停的状态
+        a:hover{
+            color: red;
+        }
+
+        .box:hover{
+            color: green;
+        } */
+
+
+        /* 继承 */
+        body{
+            font-size: 30px;
+            color: red;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div>div标签</div>
+    <p>p标签</p>
+    <span>span标签</span>
+
+
+    <!-- 如果标签自己有样式则生效自己的样式，不继承 -->
+    <a href="#">a标签，还是默认的蓝色</a>
+    <h1>h1标签，默认的字体大小</h1>
+    
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex布局</title>
+    <style>
+        /* 弹性容器 */
+        .box{
+            display: flex;
+            /* justify-content: flex-end; */
+
+            /* 居中 */
+            /* justify-content: center; */
+
+            /* 各个弹性盒子之间产生等距离间距 */
+            /* justify-content: space-between; */
+
+            /* 间距出现在弹性盒子两侧 */
+            /* 视觉效果：弹性盒子之间的间距是两端间距的两倍 */
+            /* justify-content: space-around; */
+
+
+            /* 各个间距都相等 */
+            justify-content: space-evenly;
+            height: 300px;
+            border: 1px solid #000;
+        }
+
+        /* 弹性盒子：沿着主轴方向排列 */
+        .box div{
+            width: 200px;
+            /* height: 100px; */
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+
+</div>
+    
+</body>
+</html>
